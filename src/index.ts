@@ -14,12 +14,10 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    "https://biblioteca-front-three.vercel.app"
+    'https://biblioteca-front-three.vercel.app'
   ],
   credentials: true
 }));
-
-app.options("*", cors());
 
 app.use(express.json());
 

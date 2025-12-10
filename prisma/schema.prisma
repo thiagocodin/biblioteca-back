@@ -49,7 +49,6 @@ model Loan {
   returnDate  DateTime?
   createdAt   DateTime   @default(now())
   adminNote   String?
-
 }
 
 enum LoanType {
